@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Skin Tag Remover Patch – Solusi praktis, efektif, dan tanpa sakit untuk menghilangkan skin tag, kutil kecil, dan bintik kulit. Pesan sekarang!">
     <title>Skin Tag Remover Patch – Praktis & Efektif</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -86,16 +85,6 @@
         .summary-variant-name { font-size: 10px; font-weight: 600; color: #888; background: #eee; padding: 2px 8px; border-radius: 3px; display: inline-block; margin-top: 3px; }
         .summary-check { margin-left: 8px; color: #26aa99; font-size: 16px; }
 
-        /* OrderOnline Loader Style (Dipindahkan ke head agar valid HTML5) */
-        .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
-        @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
-        @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
-        .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
-        .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
-        .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
-        @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
-        @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
-
         .sp-toast {
             position: fixed; bottom: 24px; left: 24px;
             background: rgba(255, 255, 255, 0.7);
@@ -136,14 +125,17 @@
         <!-- SLIDER PRODUK -->
         <div class="swiper product-swiper swiper-initialized swiper-horizontal" id="main-slider">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" role="group" aria-label="1 / 3" style="width: 500px;">
-                    <img src="https://cdn.orderonline.id/uploads/images_6443751757796167945.png" id="main-product-img" alt="Skin Tag Remover Patch Tampilan Utama" style="width:100%; height:100%; object-fit:contain;">
+                <!-- GANTI URL GAMBAR DI SINI (Slide 1) -->
+                <div class="swiper-slide" role="group" aria-label="1 / 5" style="width: 500px;">
+                    <img src="https://cdn.orderonline.id/uploads/images_6443751757796167945.png" id="main-product-img" style="width:100%; height:100%; object-fit:contain;">
                 </div>
-                <div class="swiper-slide" role="group" aria-label="2 / 3" style="width: 500px;">
-                    <img src="https://cdn.orderonline.id/uploads/images_5254671757796167770.png" alt="Skin Tag Remover Patch Tampilan 2" style="width:100%; height:100%; object-fit:contain;">
+                <!-- GANTI URL GAMBAR DI SINI (Slide 2) -->
+                <div class="swiper-slide" role="group" aria-label="2 / 5" style="width: 500px;">
+                    <img src="https://cdn.orderonline.id/uploads/images_5254671757796167770.png" style="width:100%; height:100%; object-fit:contain;">
                 </div>
-                <div class="swiper-slide" role="group" aria-label="3 / 3" style="width: 500px;">
-                    <img src="https://cdn.orderonline.id/uploads/images_1657601757796168075.png" alt="Skin Tag Remover Patch Tampilan 3" style="width:100%; height:100%; object-fit:contain;">
+                <!-- GANTI URL GAMBAR DI SINI (Slide 3) -->
+                <div class="swiper-slide" role="group" aria-label="3 / 5" style="width: 500px;">
+                    <img src="https://cdn.orderonline.id/uploads/images_1657601757796168075.png" style="width:100%; height:100%; object-fit:contain;">
                 </div>
             </div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"></div>
@@ -176,7 +168,8 @@
 
         <!-- Store Info Section -->
         <div class="shop-section">
-            <img src="https://cdn.orderonline.id/uploads/images_8840901776605937674.png" class="shop-logo" alt="Logo Storeriana Official Shop">
+            <!-- GANTI URL LOGO TOKO DI SINI -->
+            <img src="https://cdn.orderonline.id/uploads/images_8840901776605937674.png" class="shop-logo">
             <div class="shop-info">
                 <div class="shop-name">Storeriana Official Shop</div>
                 <div class="shop-meta" style="display: flex; align-items: center; gap: 4px;"><span style="color: #22c55e; font-size: 8px; line-height: 1;">●</span> Aktif</div>
@@ -190,7 +183,8 @@
             <div class="variant-scroll-container">
                 <div class="variant-card active" onclick="selectVariant(this, '153000', '1 BOX (ISI 144 PCS)', 'https://cdn.orderonline.id/uploads/images_6443751757796167945.png')">
                     <div class="v-card-img">
-                        <img src="https://cdn.orderonline.id/uploads/images_7045451757796167953.png" alt="Varian 1 Box 144 Pcs">
+                        <!-- GANTI URL GAMBAR VARIAN DI SINI -->
+                        <img src="https://cdn.orderonline.id/uploads/images_7045451757796167953.png">
                     </div>
                     <div class="v-card-name">1 BOX (ISI 144 PCS)</div>
                     <div class="v-check"><i class="fas fa-check"></i></div>
@@ -222,28 +216,32 @@
             <div style="padding: 20px 15px 5px; font-weight: 800; font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 1px;">Kenapa Memilih Kami?</div>
             <div class="features-vertical-list">
                 <div class="feature-vertical-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_6443751757796167945.png" class="feature-img-large" alt="Efektif Mengeringkan Skin Tag" loading="lazy">
+                    <!-- GANTI URL GAMBAR FITUR 1 DI SINI -->
+                    <img src="https://cdn.orderonline.id/uploads/images_6443751757796167945.png" class="feature-img-large">
                     <div class="feature-content-large">
                         <div class="feature-title-large">✅ Efektif</div>
                         <div class="feature-desc-large">Mengandung bahan alami yang membantu mengeringkan skin tag hingga rontok dengan sendirinya.</div>
                     </div>
                 </div>
                 <div class="feature-vertical-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_5254671757796167770.png" class="feature-img-large" alt="Mudah Digunakan" loading="lazy">
+                    <!-- GANTI URL GAMBAR FITUR 2 DI SINI -->
+                    <img src="https://cdn.orderonline.id/uploads/images_5254671757796167770.png" class="feature-img-large">
                     <div class="feature-content-large">
                         <div class="feature-title-large">✅ Mudah Digunakan</div>
                         <div class="feature-desc-large">Tinggal tempel, tanpa perlu prosedur mahal atau rasa sakit.</div>
                     </div>
                 </div>
                 <div class="feature-vertical-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_1657601757796168075.png" class="feature-img-large" alt="Higienis dan Aman" loading="lazy">
+                    <!-- GANTI URL GAMBAR FITUR 3 DI SINI -->
+                    <img src="https://cdn.orderonline.id/uploads/images_1657601757796168075.png" class="feature-img-large">
                     <div class="feature-content-large">
                         <div class="feature-title-large">✅ Higienis & Aman</div>
                         <div class="feature-desc-large">Patch sekali pakai, menjaga area tetap steril dan aman untuk kulit sensitif.</div>
                     </div>
                 </div>
                 <div class="feature-vertical-item">
-                    <img src="https://cdn.orderonline.id/uploads/images_9718601757796168100.png" class="feature-img-large" alt="Cepat dan Nyaman" loading="lazy">
+                    <!-- GANTI URL GAMBAR FITUR 4 DI SINI -->
+                    <img src="https://cdn.orderonline.id/uploads/images_9718601757796168100.png" class="feature-img-large">
                     <div class="feature-content-large">
                         <div class="feature-title-large">✅ Cepat & Nyaman</div>
                         <div class="feature-desc-large">Hasil terlihat dalam hitungan hari hingga minggu, tergantung kondisi kulit.</div>
@@ -260,7 +258,7 @@
             <div class="s-testimonial-list">
                 <div class="s-testimonial-item">
                     <div class="st-header">
-                        <img src="https://ui-avatars.com/api/?name=Dewi+Lestari" class="st-avatar" alt="Avatar Dewi Lestari">
+                        <img src="https://ui-avatars.com/api/?name=Dewi+Lestari" class="st-avatar">
                         <div class="st-user-info">
                             <div class="st-name">Dewi Lestari</div>
                             <div class="st-stars">★★★★★</div>
@@ -271,7 +269,7 @@
                 </div>
                 <div class="s-testimonial-item">
                     <div class="st-header">
-                        <img src="https://ui-avatars.com/api/?name=Budi+Santoso" class="st-avatar" alt="Avatar Budi Santoso">
+                        <img src="https://ui-avatars.com/api/?name=Budi+Santoso" class="st-avatar">
                         <div class="st-user-info">
                             <div class="st-name">Budi Santoso</div>
                             <div class="st-stars">★★★★★</div>
@@ -282,7 +280,7 @@
                 </div>
                 <div class="s-testimonial-item">
                     <div class="st-header">
-                        <img src="https://ui-avatars.com/api/?name=Siti+Aminah" class="st-avatar" alt="Avatar Siti Aminah">
+                        <img src="https://ui-avatars.com/api/?name=Siti+Aminah" class="st-avatar">
                         <div class="st-user-info">
                             <div class="st-name">Siti Aminah</div>
                             <div class="st-stars">★★★★☆</div>
@@ -297,7 +295,8 @@
         <div id="order-section" style="padding:25px 15px; background:#fff;">
             <div id="variant-summary">
                 <div class="summary-card">
-                    <img src="https://cdn.orderonline.id/uploads/images_6443751757796167945.png" class="summary-img" alt="Ringkasan Varian Produk">
+                    <!-- GANTI URL GAMBAR RINGKASAN DI SINI -->
+                    <img src="https://placehold.co/500x500/e2e8f0/1e293b?text=1+Box+144+Pcs" class="summary-img">
                     <div class="summary-info">
                         <div class="summary-title">Skin Tag Remover Patch – Praktis & Efektif</div>
                         <div class="summary-variant-name">1 BOX (ISI 144 PCS)</div>
@@ -311,6 +310,16 @@
             <div class="ooef">
                 <form class="orderonline-embed-form" data-username="emma" data-product-slug="lonhyg7yhtf65gt" data-product-id="69862b780f5f67b56e07cf18" id="oo-embed-form-lonhyg7yhtf65gt-1598" data-origin="orderonline">
                     <div class="ooef-loader">
+                        <style>
+                            .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                            @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                            @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                            .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                            .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                            .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                            @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                            @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                        </style>
                         <div aria-live="polite" role="status"><div>Loading...</div></div>
                     </div>
                 </form>
@@ -368,7 +377,7 @@
 
     <div id="social-proof-toast" class="sp-toast hide" style="display: block;">
         <div class="sp-toast-content">
-            <img id="sp-avatar" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&amp;fit=crop&amp;w=120&amp;h=120&amp;q=80" alt="Avatar Pembeli" class="sp-avatar">
+            <img id="sp-avatar" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&amp;fit=crop&amp;w=120&amp;h=120&amp;q=80" alt="avatar" class="sp-avatar">
             <div class="sp-toast-text">
                 <div class="sp-toast-name-row">
                     <span id="sp-name" class="sp-name">Alvin</span>
@@ -392,9 +401,7 @@
             el.classList.add('active');
             document.getElementById('selected-variant-name').innerText = name;
             
-            if(price) {
-                document.getElementById('display-price').innerText = 'Rp ' + Number(price).toLocaleString('id-ID');
-            }
+            if(price) document.getElementById('display-price').innerText = 'Rp ' + Number(price).toLocaleString('id-ID');
             
             if (image) {
                 const mainImg = document.getElementById('main-product-img');
@@ -406,9 +413,9 @@
 
             const summary = document.getElementById('variant-summary');
             if (summary) {
-                summary.innerHTML = `
+              summary.innerHTML = `
                 <div class="summary-card">
-                    <img src="${image}" class="summary-img" alt="Ringkasan Varian">
+                    <img src="${image}" class="summary-img">
                     <div class="summary-info">
                         <div class="summary-title">Skin Tag Remover Patch – Praktis & Efektif</div>
                         <div class="summary-variant-name">${name}</div>
@@ -418,14 +425,10 @@
             }
         }
 
-        function toggleDropdown(el) { 
-            el.classList.toggle('active'); 
-            el.nextElementSibling.classList.toggle('active'); 
-        }
-
+        function toggleDropdown(el) { el.classList.toggle('active'); el.nextElementSibling.classList.toggle('active'); }
         function scrollToOrder() { 
-            const target = document.getElementById('order-section');
-            if (target) target.scrollIntoView({ behavior: 'smooth' }); 
+          const target = document.getElementById('order-section');
+          if (target) target.scrollIntoView({ behavior: 'smooth' }); 
         }
         
         function updateShippingDate() {
@@ -519,56 +522,56 @@
             const hijabAvatars = ['photo-1607746882042-944635dfe10e', 'photo-1568602471122-7832951cc4c5', 'photo-1606132711719-79f9fefe8dcc', 'photo-1589156280159-27698a70f29e'];
 
             function isFemale(name) {
-                if (!name) return false;
-                var lower = name.toLowerCase().trim();
-                
-                var femaleSet = {
-                    'siti': true, 'amanda': true, 'indah': true, 'jessica': true, 'syifa': true, 'anisa': true, 'dian': true, 'fitri': true, 
-                    'hesti': true, 'ika': true, 'kiki': true, 'mega': true, 'putri': true, 'ratna': true, 'utami': true, 'dewi': true, 'sri': true, 
-                    'bella': true, 'nisa': true, 'rina': true, 'sari': true, 'wati': true, 'santi': true, 'kartika': true, 'amalia': true, 
-                    'lia': true, 'ria': true, 'dhea': true, 'aulia': true, 'ayu': true, 'intan': true, 'angel': true, 'chandra': true, 
-                    'cantika': true, 'lisa': true, 'novi': true, 'sarah': true, 'mey': true, 'meylani': true, 'selvi': true, 'selvia': true, 
-                    'linda': true, 'yani': true, 'ani': true, 'erika': true, 'elizabeth': true, 'rachel': true, 'clara': true, 'nadia': true, 
-                    'nadya': true, 'fani': true, 'fanny': true, 'tari': true, 'ndah': true, 'nia': true, 'grace': true, 'sherly': true,
-                    'shinta': true, 'marta': true, 'maria': true, 'keisha': true, 'aurora': true, 'nayla': true, 'zahra': true,
-                    'aisyah': true, 'khadijah': true, 'fatimah': true, 'salma': true, 'maharani': true, 'puji': true, 'asri': true, 
-                    'nurul': true, 'safira': true, 'keyla': true, 'chika': true
-                };
+              if (!name) return false;
+              var lower = name.toLowerCase().trim();
+              
+              var femaleSet = {
+                'siti': true, 'amanda': true, 'indah': true, 'jessica': true, 'syifa': true, 'anisa': true, 'dian': true, 'fitri': true, 
+                'hesti': true, 'ika': true, 'kiki': true, 'mega': true, 'putri': true, 'ratna': true, 'utami': true, 'dewi': true, 'sri': true, 
+                'bella': true, 'nisa': true, 'rina': true, 'sari': true, 'wati': true, 'santi': true, 'kartika': true, 'amalia': true, 
+                'lia': true, 'ria': true, 'dhea': true, 'aulia': true, 'ayu': true, 'intan': true, 'angel': true, 'chandra': true, 
+                'cantika': true, 'lisa': true, 'novi': true, 'sarah': true, 'mey': true, 'meylani': true, 'selvi': true, 'selvia': true, 
+                'linda': true, 'yani': true, 'ani': true, 'erika': true, 'elizabeth': true, 'rachel': true, 'clara': true, 'nadia': true, 
+                'nadya': true, 'fani': true, 'fanny': true, 'tari': true, 'ndah': true, 'nia': true, 'grace': true, 'sherly': true,
+                'shinta': true, 'marta': true, 'maria': true, 'keisha': true, 'aurora': true, 'nayla': true, 'zahra': true,
+                'aisyah': true, 'khadijah': true, 'fatimah': true, 'salma': true, 'maharani': true, 'puji': true, 'asri': true, 
+                'nurul': true, 'safira': true, 'keyla': true, 'chika': true
+              };
 
-                // PERBAIKAN BUG: Menggunakan /\s+/ untuk memisahkan berdasarkan spasi
-                var words = lower.split(/\s+/);
-                for (var i = 0; i < words.length; i++) {
-                    if (femaleSet[words[i]]) return true;
+              // PERBAIKAN BUG: Menggunakan /\s+/ untuk memisahkan berdasarkan spasi, bukan huruf 's'
+              var words = lower.split(/\s+/);
+              for (var i = 0; i < words.length; i++) {
+                if (femaleSet[words[i]]) return true;
+              }
+
+              var femaleTriggers = [
+                'siti', 'amanda', 'indah', 'jessica', 'syifa', 'anisa', 'dian', 'fitri', 
+                'hesti', 'ika', 'kiki', 'mega', 'putri', 'ratna', 'utami', 'dewi', 'sri', 
+                'bella', 'nisa', 'rina', 'sari', 'wati', 'santi', 'kartika', 'amalia', 
+                'lia', 'ria', 'dhea', 'aulia', 'ayu', 'intan', 'angel', 'chandra', 
+                'cantika', 'lisa', 'novi', 'sarah', 'mey', 'meylani', 'selvi', 'selvia', 
+                'linda', 'yani', 'ani', 'erika', 'elizabeth', 'rachel', 'clara', 'nadia', 
+                'nadya', 'fani', 'fanny', 'tari', 'ndah', 'nia'
+              ];
+
+              for (var j = 0; j < femaleTriggers.length; j++) {
+                if (lower.indexOf(femaleTriggers[j]) !== -1) {
+                  if (lower.indexOf('saputra') !== -1 || lower.indexOf('putra') !== -1 || lower.indexOf('budi') !== -1) {
+                    return false;
+                  }
+                  return true;
                 }
+              }
 
-                var femaleTriggers = [
-                    'siti', 'amanda', 'indah', 'jessica', 'syifa', 'anisa', 'dian', 'fitri', 
-                    'hesti', 'ika', 'kiki', 'mega', 'putri', 'ratna', 'utami', 'dewi', 'sri', 
-                    'bella', 'nisa', 'rina', 'sari', 'wati', 'santi', 'kartika', 'amalia', 
-                    'lia', 'ria', 'dhea', 'aulia', 'ayu', 'intan', 'angel', 'chandra', 
-                    'cantika', 'lisa', 'novi', 'sarah', 'mey', 'meylani', 'selvi', 'selvia', 
-                    'linda', 'yani', 'ani', 'erika', 'elizabeth', 'rachel', 'clara', 'nadia', 
-                    'nadya', 'fani', 'fanny', 'tari', 'ndah', 'nia'
-                ];
-
-                for (var j = 0; j < femaleTriggers.length; j++) {
-                    if (lower.indexOf(femaleTriggers[j]) !== -1) {
-                        if (lower.indexOf('saputra') !== -1 || lower.indexOf('putra') !== -1 || lower.indexOf('budi') !== -1) {
-                            return false;
-                        }
-                        return true;
-                    }
+              if (lower.endsWith('ti') || lower.endsWith('ni') || lower.endsWith('mi') || lower.endsWith('na') || lower.endsWith('ya') || lower.endsWith('sa')) {
+                var maleExceptions = ['budi', 'ari', 'andri', 'hendri', 'heri', 'feri', 'fandy', 'billy', 'rudi', 'yudi', 'dedi', 'roni', 'tony', 'joni', 'adi', 'aldi', 'hadi', 'fauzi', 'fikri', 'fahmi', 'boby', 'dani', 'deni', 'doni', 'rony', 'ali', 'reza'];
+                if (maleExceptions.some(function(exp) { return lower.endsWith(exp) || lower === exp; })) {
+                  return false;
                 }
+                return true;
+              }
 
-                if (lower.endsWith('ti') || lower.endsWith('ni') || lower.endsWith('mi') || lower.endsWith('na') || lower.endsWith('ya') || lower.endsWith('sa')) {
-                    var maleExceptions = ['budi', 'ari', 'andri', 'hendri', 'heri', 'feri', 'fandy', 'billy', 'rudi', 'yudi', 'dedi', 'roni', 'tony', 'joni', 'adi', 'aldi', 'hadi', 'fauzi', 'fikri', 'fahmi', 'boby', 'dani', 'deni', 'doni', 'rony', 'ali', 'reza'];
-                    if (maleExceptions.some(function(exp) { return lower.endsWith(exp) || lower === exp; })) {
-                        return false;
-                    }
-                    return true;
-                }
-
-                return false;
+              return false;
             }
 
             var toast = document.getElementById('social-proof-toast');
@@ -580,60 +583,60 @@
             if (!toast || !nameEl || !messageEl || !timeEl) return;
 
             function getRandomItem(arr) {
-                return arr[Math.floor(Math.random() * arr.length)];
+              return arr[Math.floor(Math.random() * arr.length)];
             }
 
             var remainingNames = names.slice();
             var remainingCities = cities.slice();
 
             function showSocialProof() {
-                if (remainingNames.length === 0) remainingNames = names.slice();
-                if (remainingCities.length === 0) remainingCities = cities.slice();
+              if (remainingNames.length === 0) remainingNames = names.slice();
+              if (remainingCities.length === 0) remainingCities = cities.slice();
 
-                var nameIdx = Math.floor(Math.random() * remainingNames.length);
-                var name = remainingNames.splice(nameIdx, 1)[0];
+              var nameIdx = Math.floor(Math.random() * remainingNames.length);
+              var name = remainingNames.splice(nameIdx, 1)[0];
 
-                var cityIdx = Math.floor(Math.random() * remainingCities.length);
-                var city = remainingCities.splice(cityIdx, 1)[0];
+              var cityIdx = Math.floor(Math.random() * remainingCities.length);
+              var city = remainingCities.splice(cityIdx, 1)[0];
 
-                var nameIsFemale = isFemale(name);
-                var photoId = '';
+              var nameIsFemale = isFemale(name);
+              var photoId = '';
 
-                if (nameIsFemale) {
-                    photoId = getRandomItem(cewekAvatars.concat(hijabAvatars));
-                } else {
-                    photoId = getRandomItem(cowokAvatars);
-                }
-                
-                if (avatarImg && photoId) {
-                    var avatarUrl = 'https://images.unsplash.com/' + photoId + '?auto=format&fit=crop&w=120&h=120&q=80';
-                    avatarImg.src = avatarUrl;
-                }
-                
-                nameEl.innerText = name;
-                messageEl.innerHTML = 'dari <strong style="color: ' + brandColor + '; font-weight:700;">' + city + '</strong> ' + statusText + ' <span style="font-weight: 700;">' + productName + '</span>';
-                
-                var minutesAgo = Math.floor(Math.random() * 15) + 1;
-                timeEl.innerHTML = '<i class="fas fa-clock"></i> &nbsp;' + (minutesAgo === 1 ? 'Baru saja' : minutesAgo + ' menit yang lalu');
+              if (nameIsFemale) {
+                photoId = getRandomItem(cewekAvatars.concat(hijabAvatars));
+              } else {
+                photoId = getRandomItem(cowokAvatars);
+              }
+              
+              if (avatarImg && photoId) {
+                var avatarUrl = 'https://images.unsplash.com/' + photoId + '?auto=format&fit=crop&w=120&h=120&q=80';
+                avatarImg.src = avatarUrl;
+              }
+              
+              nameEl.innerText = name;
+              messageEl.innerHTML = 'dari <strong style="color: ' + brandColor + '; font-weight:700;">' + city + '</strong> ' + statusText + ' <span style="font-weight: 700;">' + productName + '</span>';
+              
+              var minutesAgo = Math.floor(Math.random() * 15) + 1;
+              timeEl.innerHTML = '<i class="fas fa-clock"></i> &nbsp;' + (minutesAgo === 1 ? 'Baru saja' : minutesAgo + ' menit yang lalu');
 
-                toast.style.display = 'block';
-                toast.classList.remove('hide');
-                toast.classList.add('show');
+              toast.style.display = 'block';
+              toast.classList.remove('hide');
+              toast.classList.add('show');
 
+              setTimeout(function() {
+                toast.classList.remove('show');
+                toast.classList.add('hide');
                 setTimeout(function() {
-                    toast.classList.remove('show');
-                    toast.classList.add('hide');
-                    setTimeout(function() {
-                        if (toast.classList.contains('hide') && !toast.classList.contains('show')) {
-                            toast.style.display = 'none';
-                        }
-                    }, 400);
-                }, durationSec * 1000);
+                  if (toast.classList.contains('hide') && !toast.classList.contains('show')) {
+                    toast.style.display = 'none';
+                  }
+                }, 400);
+              }, durationSec * 1000);
             }
 
             setTimeout(function() {
-                showSocialProof();
-                setInterval(showSocialProof, intervalSec * 1000);
+              showSocialProof();
+              setInterval(showSocialProof, intervalSec * 1000);
             }, 1200);
         })();
     </script>
